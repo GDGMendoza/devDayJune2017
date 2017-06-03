@@ -4,9 +4,9 @@
 npm install -g yo generator-fountain-webapp generator-fountain-angular2 @angular/cli@latest
 ```
 ## Opción de @angular/cli.
-### Creamos un nuevo proyecto de la siguiente forma:
+### Creamos un nuevo proyecto de la siguiente forma: (sean pacientes, demora bastante)
 ```
-ng new frontend --style sass -ng4 --prefix gdg --routing --directory frontend-cli --skip-tests true && ng set defaults.styleExt sass
+ng new frontend --style sass -ng4 --prefix gdg --routing --directory frontend-cli --skip-install true --skip-tests true && cd frontend-cli && ng set defaults.styleExt sass && npm install
 ```
 ### Una vez se termine de instalar, ingresamos al directorio y probamos que esté todo funcionando:
 ```
