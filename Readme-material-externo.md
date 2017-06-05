@@ -16,6 +16,7 @@
 
 ## IDE gratuito y completo compatible con angular 2/4
 [vscode][2]
+
 ***NOTA***: [requisitos mínimos (en inglés)][5]
 
 ## Guía de estilos para angular 2/4
