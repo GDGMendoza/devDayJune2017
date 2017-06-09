@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { MiniPostComponent } from './home/mini-post/mini-post.component';
 import { PostComponent } from './post/post.component';
 import { UserComponent } from './user/user.component';
+import {UserService} from './shared/user/user.service'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { UserComponent } from './user/user.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+      UserService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

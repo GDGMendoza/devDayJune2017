@@ -14,11 +14,22 @@ export class HomeComponent implements OnInit {
         this.title = 'GDG DevDay - GDG Mendoza';
         this.posts = [
             {
-                _id: 'asdfasdfas',
-                id: 'asdfasdfas',
-                categoryId: 'asdfasdfas',
-                tagId: 'asdfasdfas',
-                postStatusId: 'asdfasdfas',
+                _id: 'id1',
+                id: 'id1',
+                categoryId: 'idcategoria',
+                tagId: 'idtag',
+                postStatusId: 'idstatusdelpost',
+                text: 'Bonjour gdg devDay',
+                dateCreated: Date.now().toString(),
+                dateUpdated: '',
+                createdByUserId: 'me'
+            },
+            {
+                _id: 'id2',
+                id: 'id2',
+                categoryId: 'idcategoria',
+                tagId: 'idtag',
+                postStatusId: 'idstatusdelpost',
                 text: 'Bonjour gdg devDay',
                 dateCreated: Date.now().toString(),
                 dateUpdated: '',
