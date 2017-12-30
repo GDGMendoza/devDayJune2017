@@ -1,0 +1,15 @@
+<div>
+  <h3>Logueado como {{userService?._user?.displayName}}</h3>
+</div>
+<div>
+  <h3>Email {{userService?._user?.email}}</h3>
+</div>
+<div>
+  <h3>Quiere desloguearse?</h3>
+</div>
+<button (click)="userService.logout()" [hidden]="userService?._user === null">Cerrar Sesión</button>
+
+<div [hidden]="userService?._user !== null">
+  Usted ahún no está logueado Quiere loguear?
+</div>
+<button (click)="userService.login()" [hidden]="userService?._user !== null">Iniciar Sesión</button>
